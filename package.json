@@ -59,7 +59,12 @@
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
   },
-  "peerDependencies": {},
-  "dependencies": {},
+  "peerDependencies": {
+    "@stellar/stellar-sdk": ">=12.3.0"
+  },
+  "dependencies": {
+    "@stellar/freighter-api": "^6.0.1",
+    "typescript": "^5.4.5"
+  },
   "devDependencies": {}
 }
